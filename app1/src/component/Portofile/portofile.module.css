@@ -1,0 +1,66 @@
+
+.lightbox{
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+}
+.imgw{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+}
+.inner{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    width: 100%;
+    
+}
+.inner .layer{
+    position: absolute;
+    inset: 0;
+    top: 0;
+    bottom: 0;
+    left: 9px;
+    right: 0;
+    transition:  1s;
+    width: 96%;
+}
+
+    .inner:hover .layer{
+        background-color: rgb(25, 175, 142, 0.8);
+        top: 0;
+    
+    
+
+    }
+   .plus{
+    color: white !important;
+    font-size: 50px !important;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    display: none;
+    transition: all 0.4;
+    margin: 25% 0;
+   }
+    .layer:hover .plus{
+        display: block;
+    }
+
+
+    #modal-content {
+        position: relative;
+        display: flex;
+       margin: auto !important;
+        width: 30% !important;
+        
+    }
+    ._imgw_1umpi_13 {
+        display: flex
+    ;
+        justify-content: center;
+        align-items: center;
+        width: 25% !important;
+    }

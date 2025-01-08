@@ -1,0 +1,80 @@
+import React from 'react';
+import Nav1 from '../Nav1/Nav1';
+import Title from '../Title/Title';
+import styles from './portofile.module.css' 
+
+export default function Portofile(){
+
+
+  
+  
+    return<>
+    
+    <div className=' d-flex justify-content-center align-items-center ' style={{width:"40%"  }} >
+     
+                  <div className="container">
+        <div className="row g-3 m-2" id="simg">
+                             <h2 ></h2>
+    <Title title='portfolio component' color='black' className="text-center col-12 "/>
+
+           
+            <div className={`${styles.inner } inner col-md-6 col-lg-4`}>
+            <img src="./img/portfolio/port3.png" alt=""   className="w-100 border rounded"/>
+            <div className= {`${styles.layer}`}>
+              <div className={`${styles.plus}`}>
+              <i className="fa-solid fa-plus fa-2xl text-light" ></i>
+              </div>
+            </div>
+            </div> 
+             <div className={`${styles.inner } inner col-md-6 col-lg-4`}>
+             <img src="./img/portfolio/port2.png" alt=""   className="w-100 border rounded"/>
+             <div className={`${styles.layer} border rounded`}>
+              <div className={`${styles.plus}`}>
+              <i className="fa-solid fa-plus fa-2xl text-light" ></i>
+              </div>
+             </div>
+            </div>
+            <div className={`${styles.inner } inner col-md-6 col-lg-4`}>
+                <img src="./img/portfolio/poert1.png" alt=""   className="w-100 border rounded"/>
+      <div className={`${styles.layer} border rounded`}>
+        <div className={`${styles.plus}`}>
+              <i className="fa-solid fa-plus fa-2xl text-light" ></i>
+              </div>
+      </div>
+            </div>
+            <div className={`${styles.inner } inner col-md-6 col-lg-4`}>
+                <img src="./img/portfolio/poert1.png" alt=""   className="w-100 border rounded"/>
+            <div className={`${styles.layer} border rounded`}>
+              <div className={`${styles.plus}`}>
+              <i className="fa-solid fa-plus fa-2xl text-light" ></i>
+              </div>
+            </div>
+            </div>      
+               <div className={`${styles.inner } inner col-md-6 col-lg-4`}>
+                <img src="./img/portfolio/port3.png" alt=""   className="w-100 border rounded"/>
+      <div className={`${styles.layer} border rounded`}>
+        <div className={`${styles.plus}`}>
+              <i className="fa-solid fa-plus fa-2xl text-light" ></i>
+              </div>
+      </div>
+            </div>
+            <div className={`${styles.inner } inner col-md-6 col-lg-4`}>
+                <img src="./img/portfolio/port2.png" alt=""   className="w-100 border rounded"/>
+      <div className={`${styles.layer} border rounded`}>
+        <div className={`${styles.plus}`}>
+              <i className="fa-solid fa-plus fa-2xl text-light" ></i>
+              </div>
+      </div>
+            </div>
+   
+        </div>
+    </div>
+
+    <div className={`${styles.lightbox} d-none`} id="lightbox">
+<div className={`${styles.imgw}`}>
+    <img src="" alt=""   className="w-50 vh-90"/>
+</div>
+    </div>
+        </div>
+    </>
+}
